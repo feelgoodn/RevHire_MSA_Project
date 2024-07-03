@@ -1,0 +1,78 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+.terraform
+# Ignore Terraform state files and backup files
+**/*.tfstate
+**/*.tfstate.*
+**/*.backup
+
+# Ignore crash log files
+**/crash.log
+
+# Ignore Terraform plan files
+**/*.tfplan
+
+# Ignore override files
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+
+# Ignore local .terraform directories
+**/.terraform/
+**/.terraform/*
+
+# Ignore Terraform variable files
+**/*.tfvars
+**/*_secrets.tfvars
+
+# Ignore .terraformrc and terraform.rc files
+**/.terraformrc
+**/terraform.rc
+
+# Ignore any other sensitive files
+**/private.key
+**/secrets.tfvars
+*.pem
